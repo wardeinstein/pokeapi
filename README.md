@@ -1,4 +1,4 @@
-# Pokeapi ReadMe File
+# Pokeapi App ReadMe File
 
 - This application is using Pokeapi (https://pokeapi.co) api to evaluate the type advantages of two Pokémon.
 
