@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>
+        Pokemon
+    </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Bootstarp -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="page-header"> 
+        <div class="jumbotron">
+            <h1 class="text-center">Evaluate the type advantages of two Pokémon</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="form">
+                <p> Please Enter Two Pokémon IDs or Names</p>
+                <input type="text" name="poke1" id="poke1" class="form-control" required placeholder="Name or ID"/>
+                <input type="text" name="poke2" id="poke2" class="form-control" required placeholder="Name or ID"/>
+                <button id="submit" class="btn btn-primary">Compare!</button>
+                <div id="error"></div>
+      
+            <div id="display"></div>
+            <div id="loading">Please waiting...</div>
+        </div>
+    </div>
+    <div class="page-footer">
+        <div class="jumbotron">
+      <p class="text-center">Created by Yuanyuan(Jamie) Zhang <br />All of the data is getting from <a href="https://pokeapi.co/">Pokéapi</a></p>
+    </div>
+  </div>        
+
+</body>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+
+</html>

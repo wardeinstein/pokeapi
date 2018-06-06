@@ -1,0 +1,19 @@
+{
+  "name": "pokemon",
+  "version": "1.0.0",
+  "description": "This is an app for evaluating the type advantages of two Pokémon",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wardeinstein/pokeapi.git"
+  },
+  "author": "Jamie Zhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wardeinstein/pokeapi/issues"
+  },
+  "homepage": "https://github.com/wardeinstein/pokeapi#readme"
+}
